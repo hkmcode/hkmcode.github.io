@@ -1,0 +1,32 @@
+﻿/*==================footer-section========================*/
+
+footer {
+    background: black;
+    color: white;
+    padding:40px 0px;
+}
+
+
+.footer_nav{
+	    margin: 30px 0px;
+}
+.footer_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 15px;
+}
+.footer_nav ul li a{
+	color: #fff;
+}
+.copyright h5{
+	margin: 0px;
+	font-weight: normal;
+}
+.copyright a{
+	color: #fff;
+}
+@media (max-width: 767px) {
+.footer_nav{
+	    margin: 0px 0px 30px 0px;
+}
+}
