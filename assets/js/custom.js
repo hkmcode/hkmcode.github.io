@@ -208,7 +208,7 @@ $(document).on('ready',function() {
 	 -------------------------------------------------*/
 	var mapWrap = $('#map');
 	if (mapWrap.length) {
-		google.maps.event.addDomListener(window, 'load', initialize);
+		//google.maps.event.addDomListener(window, 'load', initialize);
 
 	}
 	/*-----------------------------------------------
@@ -225,29 +225,29 @@ $(document).on('ready',function() {
  -------------------------------------------------*/
 var mapWrap = $('#map');
 if (mapWrap.length) {
-	var myCenter = new google.maps.LatLng(51.538308, -0.3817765);
-	function initialize() {
-		var mapProp = {
-			center : myCenter,
-			zoom : 15,
-			mapTypeId : google.maps.MapTypeId.ROADMAP,
-			scrollwheel : false
-		};
-		var map = new google.maps.Map(document.getElementById("map"), mapProp);
+	//var myCenter = new google.maps.LatLng(51.538308, -0.3817765);
+	// function initialize() {
+	// 	var mapProp = {
+	// 		center : myCenter,
+	// 		zoom : 15,
+	// 		mapTypeId : google.maps.MapTypeId.ROADMAP,
+	// 		scrollwheel : false
+	// 	};
+	// 	var map = new google.maps.Map(document.getElementById("map"), mapProp);
 
-		var marker = new google.maps.Marker({
-			position : myCenter,
-			icon : {
-				url : 'assets/images/map-pin.png',
-				size : new google.maps.Size(90, 111), //marker image size
-				origin : new google.maps.Point(0, 0), // marker origin
-				anchor : new google.maps.Point(35, 86) // X-axis value (35, half of marker width) and 86 is Y-axis value (height of the marker).
-			}
-		});
+	// 	var marker = new google.maps.Marker({
+	// 		position : myCenter,
+	// 		icon : {
+	// 			url : 'assets/images/map-pin.png',
+	// 			size : new google.maps.Size(90, 111), //marker image size
+	// 			origin : new google.maps.Point(0, 0), // marker origin
+	// 			anchor : new google.maps.Point(35, 86) // X-axis value (35, half of marker width) and 86 is Y-axis value (height of the marker).
+	// 		}
+	// 	});
 
-		marker.setMap(map);
+	// 	marker.setMap(map);
 
-	}
+	// }
 
 	function reloadStylesheets() {
 		var queryString = 'reload=' + new Date().getTime();

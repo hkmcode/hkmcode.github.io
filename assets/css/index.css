@@ -751,8 +751,7 @@
 	opacity: 0.1;
 }
 .client_pic img {
-	height: 50px;
-	width: 50px !important;
+	width: 200px !important;
 	display: inline-block !important;
 	border-radius: 50%;
 }
@@ -1025,8 +1024,8 @@ form .error {
 .no-padding {
 }
 #map {
-	height: 100%;
-	width: 100%;
+	height: 1000px;
+	width: 450px;
 }
 
 
