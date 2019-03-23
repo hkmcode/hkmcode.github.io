@@ -927,7 +927,7 @@
 	background: #fff;
 }
 .bg_dark {
-	background: #2ecc71;
+	background: #fff;
 	border-radius: 0px 10px 10px 0px;
 }
 .contact-form input[type="text"], .contact-form textarea {
@@ -1024,9 +1024,29 @@ form .error {
 .no-padding {
 }
 #map {
-	height: 1000px;
-	width: 387px;
+    /* width: 387px; */
+    margin-top:42px;
 }
+
+.outer {
+    /* background-color: green; */
+    display: table;
+    width: 100%;
+    height:120px;
+    
+  }
+  .box-one {
+    /* background-color: red; */
+    height: 50px;
+    display: table-cell;
+    border-bottom: 1px solid red
+  }
+  .box-two {
+    /* background-color: blue; */
+    height: 50px;
+    display: table-cell;
+    border-bottom: 1px solid red
+  }
 
 
 
