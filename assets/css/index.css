@@ -924,7 +924,8 @@
 }
 
 .color_bg {
-	background: #fff;
+    background: #fff;
+    border-right: 1px solid #000;
 }
 .bg_dark {
 	background: #fff;

@@ -103,6 +103,16 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
+.navigation ul li a:active{
+    color:#009fe0;
+}
+
+.navigation ul li a:hover{
+    color:#009fe0;
+}
+
+
 .navigation > ul > li > a {
 	display: block;
     padding: 38px 16px;
