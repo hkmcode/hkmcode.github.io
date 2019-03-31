@@ -41,7 +41,7 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo-dark.png');
+            logo.attr('src', 'img/logo-light.png');
 
         }else{
 
