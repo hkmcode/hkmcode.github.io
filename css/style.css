@@ -71,6 +71,7 @@ p {
     padding-left: 15px;
     padding-right: 15px;
   float:left;
+  font-weight: bolder;
 }
 
 .left-menu {
@@ -81,7 +82,7 @@ p {
 
 .right-container {
     /* background-color: blue; */
-    width:calc(100% - 50px);
+    width:111%;
   float:left;
 }
 
@@ -1614,6 +1615,13 @@ footer p {
   .body-content {
     width: 100%;
   }
+  .middle-view {
+    width: 60%;
+  }
+
+  .right-view {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 767px) {
   .mb-sm50 {
@@ -1665,6 +1673,13 @@ footer p {
   }
   .body-content {
     width: 100%;
+  }
+  .middle-view {
+    width: 60%;
+  }
+
+  .right-view {
+    width: 40%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1721,6 +1736,15 @@ footer p {
 
   .body-content {
     width: 100%;
+    font-weight: normal;
+  }
+
+  .middle-view {
+    width: 60%;
+  }
+
+  .right-view {
+    width: 40%;
   }
 
   
