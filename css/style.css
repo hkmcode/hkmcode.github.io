@@ -66,6 +66,38 @@ p {
   margin: 0;
 }
 
+ .body-content {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+  float:left;
+  font-weight: bolder;
+}
+
+.left-menu {
+    background-color: red;
+    float: left;
+    width: 50px;
+}
+
+.right-container {
+    /* background-color: blue; */
+    width:111%;
+  float:left;
+}
+
+.middle-view {
+    width: 50%;
+    float: left;
+    /* background-color: blueviolet; */
+}
+
+.right-view {
+    width: 50%;
+    float: left;
+    /* background-color: burlywood; */
+} 
+
 img {
   width: 100%;
   height: auto;
@@ -1580,6 +1612,16 @@ footer p {
   .services hr {
     display: none;
   }
+  .body-content {
+    width: 100%;
+  }
+  .middle-view {
+    width: 60%;
+  }
+
+  .right-view {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 767px) {
   .mb-sm50 {
@@ -1628,6 +1670,16 @@ footer p {
 
   .portfolio .filtering span {
     margin-bottom: 10px;
+  }
+  .body-content {
+    width: 100%;
+  }
+  .middle-view {
+    width: 60%;
+  }
+
+  .right-view {
+    width: 40%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1681,6 +1733,21 @@ footer p {
   .subscribe .butn {
     border-radius: 30px;
   }
+
+  .body-content {
+    width: 100%;
+    font-weight: normal;
+  }
+
+  .middle-view {
+    width: 60%;
+  }
+
+  .right-view {
+    width: 40%;
+  }
+
+  
 }
 
 /*# sourceMappingURL=style.css.map */
