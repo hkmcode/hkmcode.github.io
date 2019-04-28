@@ -1756,17 +1756,17 @@ footer p {
 
 @media screen and (min-width: 1400px) {
     .middle-view {
-        width: 45%;
+        width: 35%;
       }
   }
   @media screen and (min-width: 1600px) {
     .middle-view {
-        width: 45%;
+        width: 35%;
       }
   }
   @media screen and (min-width: 1900px) {
     .middle-view {
-        width: 45%;
+        width: 35%;
       }
   }
 
