@@ -68,6 +68,7 @@ p {
 
  .body-content {
     width: 30%;
+    right:142px;
     padding-left: 15px;
     padding-right: 15px;
   float:left;
@@ -1614,9 +1615,10 @@ footer p {
   }
   .body-content {
     width: 100%;
+    right:0;
   }
   .middle-view {
-    width: 60%;
+    width: 55%;
   }
 
   .right-view {
@@ -1673,6 +1675,7 @@ footer p {
   }
   .body-content {
     width: 100%;
+    right:0;
   }
   .middle-view {
     width: 60%;
@@ -1736,11 +1739,12 @@ footer p {
 
   .body-content {
     width: 100%;
+    right:0;
     font-weight: normal;
   }
 
   .middle-view {
-    width: 60%;
+    width: 55%;
   }
 
   .right-view {
