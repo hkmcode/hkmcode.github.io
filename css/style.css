@@ -1761,12 +1761,12 @@ footer p {
   }
   @media screen and (min-width: 1600px) {
     .middle-view {
-        width: 22%;
+        width: 24%;
       }
   }
   @media screen and (min-width: 1900px) {
     .middle-view {
-        width: 22%;
+        width: 24%;
       }
   }
 
