@@ -1678,7 +1678,7 @@ footer p {
     right:0;
   }
   .middle-view {
-    width: 60%;
+    width: 55%;
   }
 
   .right-view {
@@ -1744,7 +1744,7 @@ footer p {
   }
 
   .middle-view {
-    width: 55%;
+    width: 52%;
   }
 
   .right-view {
@@ -1753,5 +1753,21 @@ footer p {
 
   
 }
+
+@media screen and (min-width: 1400px) {
+    .middle-view {
+        width: 45%;
+      }
+  }
+  @media screen and (min-width: 1600px) {
+    .middle-view {
+        width: 45%;
+      }
+  }
+  @media screen and (min-width: 1900px) {
+    .middle-view {
+        width: 45%;
+      }
+  }
 
 /*# sourceMappingURL=style.css.map */
