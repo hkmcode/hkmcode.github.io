@@ -799,7 +799,7 @@ span, a, a:hover {
 .services-graphic:hover {
     opacity: 1;
     transform: scale(1.4);
-    /* transition: all 0.3s ease-in-out 0.1s; */
+    transition: all 0.3s ease-in-out 0.1s;
    
   }
 
