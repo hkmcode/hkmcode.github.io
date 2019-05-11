@@ -69,11 +69,11 @@ p {
 
  .body-content {
     width: 30%;
-    right:142px;
+    right:62px;
     padding-left: 15px;
     padding-right: 15px;
   float:left;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .left-menu {
@@ -326,7 +326,7 @@ span, a, a:hover {
 }
 
 .nav-scroll {
-  background: #fff;
+    background: rgb(0,0,0,0.5);
   border-bottom: 1px solid rgba(12, 12, 12, 0.04);
   padding: 0;
   position: fixed;
@@ -344,7 +344,7 @@ span, a, a:hover {
   color: #222;
 }
 .nav-scroll .navbar-nav .nav-link {
-  color: #222;
+  color: #fff;
 }
 .nav-scroll .navbar-nav .logo {
   padding: 15px 0;
