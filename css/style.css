@@ -1642,9 +1642,9 @@ footer p {
   .services .item {
     padding: 0;
   }
-  .services .bord {
+  /* .services .bord {
     border: 0;
-  }
+  } */
   .services hr {
     display: none;
   }
