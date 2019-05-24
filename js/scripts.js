@@ -190,12 +190,47 @@ $(window).on("load",function (){
       // options
     });
 
+    var filterFns = {
+        // show if number is greater than 50
+        numberGreaterThan50: function() {
+          var number = $(this).find('.number').text();
+          return parseInt( number, 10 ) > 50;
+        },
+      };
+
+      
+
     // filter items on button click
     $('.filtering').on( 'click', 'span', function() {
 
         var filterValue = $(this).attr('data-filter');
 
-        $gallery.isotope({ filter: filterValue });
+        filterValue = filterFns[ filterValue ] || filterValue;
+
+        //if(filterValue!='*')
+        //{
+            $gallery.isotope({ filter: filterValue });
+            //$gallery.isotope({ filter: 2 });
+        //}
+
+        // $gallery.isotope({ filter: function() {
+        //     var filterValue = $(this).find('.span').attr('data-filter');
+
+        //     if(filterValue=='*')
+        //     {
+        //         return 3;
+        //         //$gallery.isotope({ filter: 2 });
+        //     }
+        //     //var name = $(this).find('.name').text();
+            
+        //   } })
+
+       
+
+
+
+
+        
 
     });
 
@@ -272,5 +307,18 @@ $(document).ready(function() {
         $('.owl-item').not('.cloned').eq(item).find('p').addClass('animated fadeInUp');
         $('.owl-item').not('.cloned').eq(item).find('.butn').addClass('animated zoomIn');
     });
+
+    var filterFns = {
+        // show if number is greater than 50
+        numberGreaterThan50: function() {
+          var number = $(this).find('.number').text();
+          return parseInt( number, 10 ) > 50;
+        },
+      };
+
+    var filterValue ='numberGreaterThan50';
+    filterValue = filterFns[ filterValue ];
+
+    $('.gallery').isotope({ filter: filterValue });
 
 });
