@@ -1158,7 +1158,7 @@ span, a, a:hover {
   margin: 0 auto 15px;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid rgba(236, 134, 134, 0.15);
+  border: 5px solid rgba(0, 0, 0, 0.5);
 }
 .testimonials .item h6 {
   font-size: 16px;
