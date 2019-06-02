@@ -1818,12 +1818,23 @@ footer p {
   }
   @media screen and (min-width: 1600px) {
     .middle-view {
-        width: 18%;
+        width: 35%;
+      }
+
+      .body-content {
+        width: 100%;
+        right:220px;
+        font-weight: normal;
       }
   }
   @media screen and (min-width: 1900px) {
     .middle-view {
-        width: 18%;
+        width: 35%;
+      }
+      .body-content {
+        width: 100%;
+        right:220px;
+        font-weight: normal;
       }
   }
 
