@@ -1813,27 +1813,27 @@ footer p {
 
 @media screen and (min-width: 1400px) {
     .middle-view {
-        width: 35%;
+        width: 20%;
       }
   }
   @media screen and (min-width: 1600px) {
     .middle-view {
-        width: 35%;
+        width:20%;
       }
 
       .body-content {
         width: 100%;
-        right:20px;
+        right:10px;
         font-weight: normal;
       }
   }
   @media screen and (min-width: 1900px) {
     .middle-view {
-        width: 35%;
+        width: 20%;
       }
       .body-content {
         width: 100%;
-        right:20px;
+        right:10px;
         font-weight: normal;
       }
   }
