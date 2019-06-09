@@ -1813,7 +1813,7 @@ footer p {
 
 @media screen and (min-width: 1400px) {
     .middle-view {
-        width: 20%;
+        width: 0;
       }
   }
   @media screen and (min-width: 1600px) {
@@ -1823,7 +1823,7 @@ footer p {
 
       .body-content {
         width: 100%;
-        right:10px;
+        right:0;
         font-weight: normal;
       }
   }
@@ -1833,7 +1833,7 @@ footer p {
       }
       .body-content {
         width: 100%;
-        right:10px;
+        right:0;
         font-weight: normal;
       }
   }
