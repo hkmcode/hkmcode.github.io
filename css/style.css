@@ -1817,7 +1817,7 @@ footer p {
       }
       .body-content {
         width: 35%;
-        right: 1%;
+        right: -1%;
         font-weight: normal;
       }
   }
