@@ -68,8 +68,8 @@ p {
 }
 
  .body-content {
-    width: 35%;
-    right:1%;
+    width: 30%;
+    right:9%;
     padding-left: 15px;
     padding-right: 15px;
   float:left;
@@ -1811,7 +1811,7 @@ footer p {
   
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1376px) {
     .middle-view {
         width: 35%;
       }
