@@ -1811,15 +1811,15 @@ footer p {
   
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
     .middle-view {
         width: 35%;
       }
-      /* .body-content {
+      .body-content {
         width: 35%;
         right: 1%;
         font-weight: normal;
-      } */
+      }
   }
   @media screen and (min-width: 1600px) {
     .middle-view {
