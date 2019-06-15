@@ -311,7 +311,7 @@ span, a, a:hover {
 {
     display: block;
     border-radius: 50%;
-    /* width:235px; */
+    width:65%;
 }
 .slick-slide.slick-loading img
 {
