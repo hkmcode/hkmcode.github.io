@@ -1939,9 +1939,9 @@ footer p {
   
 }
 
-@media screen and (max-width: 1376px) {
+@media screen and (min-width: 1400px) {
     .middle-view {
-        width: 35%;
+        width: 50%;
       }
       /* .body-content {
         width: 35%;
