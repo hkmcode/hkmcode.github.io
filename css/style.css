@@ -1793,7 +1793,8 @@ footer p {
     /* border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   border-top: 1px solid #eee; */
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
+  border:0;
   }
   .services hr {
     display: none;
@@ -1960,11 +1961,14 @@ footer p {
         font-weight: normal;
       }
       .section-head {
-        margin-bottom: 24px;
+        margin-bottom: 40px;
     }
       .client-background {
           padding-top: 7px;
       }
+      .slick-slide img{
+        width:60%;
+    }
   }
   @media screen and (min-width: 1900px) {
     .middle-view {
@@ -1980,7 +1984,10 @@ footer p {
     }
 
     .section-head {
-        margin-bottom: 24px;
+        margin-bottom: 40px;
+    }
+    .slick-slide img{
+        width:60%;
     }
   }
 
