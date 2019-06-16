@@ -1959,6 +1959,12 @@ footer p {
         right:-1025px;
         font-weight: normal;
       }
+      .section-head {
+        margin-bottom: 24px;
+    }
+      .client-background {
+          padding-top: 7px;
+      }
   }
   @media screen and (min-width: 1900px) {
     .middle-view {
@@ -1969,6 +1975,13 @@ footer p {
         right:-1025px;
         font-weight: normal;
       }
+      .client-background {
+        padding-top: 7px;
+    }
+
+    .section-head {
+        margin-bottom: 24px;
+    }
   }
 
 /*# sourceMappingURL=style.css.map */
