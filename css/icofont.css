@@ -43,6 +43,111 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ef12";
 }
 
+.icofont-iphone:before
+{
+  content: "\ea3b";
+}
+
+.icofont-map:before
+{
+  content: "\ef8b";
+}
+
+.icofont-facebook:before
+{
+  content: "\ed37";
+}
+
+.icofont-instagram:before
+{
+  content: "\ed46";
+}
+
+.icofont-eye:before
+{
+  content: "\ef24";
+}
+
+.icofont-eye-alt:before
+{
+  content: "\ef21";
+}
+
+.icofont-eye-blocked:before
+{
+  content: "\ef22";
+}
+
+.icofont-navigation-menu:before
+{
+  content: "\efa2";
+}
+
+.icofont-plus:before
+{
+  content: "\efc2";
+}
+
+.icofont-plus-square:before
+{
+  content: "\efc1";
+}
+
+.icofont-plus-circle:before
+{
+  content: "\efc0";
+}
+
+.icofont-minus:before
+{
+  content: "\ef9a";
+}
+
+.icofont-minus-square:before
+{
+  content: "\ef99";
+}
+
+.icofont-minus-circle:before
+{
+  content: "\ef98";
+}
+
+.icofont-eye-open:before
+{
+  content: "\e80b";
+}
+
+.icofont-external-link:before
+{
+  content: "\ef1f";
+}
+
+.icofont-link-alt:before
+{
+  content: "\ef70";
+}
+
+.icofont-link:before
+{
+  content: "\ef71";
+}
+
+.icofont-ui-social-link:before
+{
+  content: "\ec84";
+}
+
+.icofont-ui-zoom-in:before
+{
+  content: "\ec97";
+}
+
+.icofont-ui-zoom-out:before
+{
+  content: "\ec98";
+}
+
 .icofont-xs
 {
   font-size: .5em;

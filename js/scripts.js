@@ -246,7 +246,7 @@ $(window).on("load",function (){
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.html";
+            var url = "contact.php";
 
             $.ajax({
                 type: "POST",
@@ -254,14 +254,15 @@ $(window).on("load",function (){
                 data: $(this).serialize(),
                 success: function (data)
                 {
-                    var messageAlert = 'alert-' + data.type;
-                    var messageText = data.message;
+                    //console.log(data);
+                    var messageAlert = 'alert-success';
+                    var messageText = "Thank you for contacting us.";
 
-                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                    if (messageAlert && messageText) {
+                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true" style="width:5%;padding:5px;">&times;</button>' + messageText + '</div>';
+                    //if (messageAlert && messageText) {
                         $('#contact-form').find('.messages').html(alertBox);
                         $('#contact-form')[0].reset();
-                    }
+                    //}
                 }
             });
             return false;

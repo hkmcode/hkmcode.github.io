@@ -1,0 +1,21 @@
+body content - right - -1242
+
+iframe width -- 992
+
+section-head == 11px
+
+
+client-background 21
+
+client logo 47% size
+
+
+
+logo 203%
+
+
+
+remove bold from headings  --  
+
+facebook logo
+instagram logo  original
